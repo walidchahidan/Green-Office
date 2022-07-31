@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Oswald;
+    src: url("../font/oswald/Oswald-Regular.ttf");
+}
+body{
+    margin: 0;
+    background-image: url("../img/fond.png");
+}
+.container{
+    margin: 0px 25vw 100px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.logo{
+    display: inline-block;
+    
+}
+.blanc1{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+.blanc2{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+nav{
+    background-color: #b8cb21  ;
+} 
+nav>ul>li{
+    display: inline;
+    margin: 0px 25px;
+}
+.blanc1>img{
+    width: 50vw;
+}
+    
+
+nav>ul{
+    float: right;
+    margin-top: 55px;
+    margin-right: 2cm;
+    
+}
+a{
+    font-family:Oswald;
+    color: rgba(38, 44, 38, 0.582);
+    font-weight: bold;
+}
+strong{
+    color: #b8cb21;
+    font-size: x-large;
+}
+.secondimgs{
+    width: 30%;
+    float: left;
+}
+.list>ul>li{
+    
+    width: 70%;   
+}
+.list>ul{
+    padding-left: 70px;
+}
+button{
+    color: white;
+    background-color: #b8cb21;
+    border: none;
+    width: 7vw;
+    height: 5vh;
+    float: right;
+    margin-right: 1cm;
+}
