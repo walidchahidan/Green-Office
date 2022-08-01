@@ -28,7 +28,9 @@ body{
     margin-left: 20px;
     margin-right: 10px;
 }
+
 nav{
+    
     background-color: #b8cb21  ;
 } 
 nav>ul>li{
