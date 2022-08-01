@@ -1,3 +1,9 @@
+:root {
+    --bg-header: #b8cb21;
+    --nav-text: #475e2a;
+    --title-text: #c9d764;
+    --bg-btn: #b5cb24;
+}
 @font-face {
     font-family: Oswald;
     src: url("../font/oswald/Oswald-Regular.ttf");
@@ -7,87 +13,58 @@ body{
     background-image: url("../img/fond.png");
 }
 .container{
-    margin: 0px 25vw 20px;
+    max-width: 750px;
     background-color: white;
-    padding-bottom: 50px;
+    margin: auto;
+    overflow: auto;
+    padding-bottom: 20px;
 }
-.logo{
+header>nav>ul>li{
+
     display: inline-block;
-    
-}
-.blanc1{
-    margin-top: 40px;
-    margin-bottom: 100px;
-    margin-left: 20px;
-    margin-right: 10px;
-    
-}
-.blanc2{
-    margin-top: 40px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
-nav{
-    
-    background-color: #b8cb21  ;
-} 
-nav>ul>li{
-    display: inline;
-    margin: 0px 25px;
-}
-.blanc1>img{
-    width: 50vw;
-}
-    
-
-nav>ul{
-    float: right;
-    margin-top: 55px;
-    margin-right: 2cm;
+    margin: 10px;
     
 }
 a{
-    font-family:Oswald;
-    color: rgba(38, 44, 38, 0.582);
-    font-weight: bold;
-}
-strong{
-    color: #b8cb21;
-    font-size: x-large;
     font-family: Oswald;
+    color: #475e2a;
 }
-.secondimgs{
+nav{
+    float: right;
+    margin: 35px 30px 0px 0px;
+    font-size: 1.3em;
+}
+header{
+    background-color: #b8cb21;
+}
+section{
+    margin: 40px 20px 40px 30px;
+}
+h2{
+    font-family: Oswald;
+    color: #b5cb24;
+}
+section>img{
     width: 30%;
     float: left;
-    margin-right: 15px;
-}
-.list>ul>li{
-    
-    width: 70%;   
-}
-.list>ul{
-    padding-left: 70px;
+    margin-right: 20px;
 }
 button{
     color: white;
-    background-color: #b8cb21;
+    background-color: #b5cb24;
+    padding: 10px;
     border: none;
-    width: 7vw;
-    height: 5vh;
     float: right;
-    margin-right: 1cm;
-}
-.walogo{
-    width: 3vw;
-    margin: auto;
-    display: block;
-    
 
 }
-.lasttext{
+footer>img{
+    display: block;
     text-align: center;
-    font-size: small;
-    margin: 10px 130px;
+    margin: auto;
+    margin-top: 30px;
+    width: 50px;
+}
+footer>p{
+    text-align: center;
+    margin: 0px 20px;
 }
